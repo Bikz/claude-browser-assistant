@@ -1,0 +1,20 @@
+claude-browser-assistant/
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+├── popup/
+│   ├── popup.html
+│   ├── popup.css
+│   └── popup.js
+├── options/
+│   ├── options.html
+│   ├── options.css
+│   └── options.js
+├── manifest.json
+├── background.js
+├── webpack.config.js
+├── package.json
+├── LICENSE
+├── README.md
+└── .gitignore

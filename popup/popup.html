@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Claude Browser Assistant</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Claude Browser Assistant</h2>
+      <button id="settingsBtn" class="icon-button" title="Open Settings">⚙</button>
+    </div>
+    <textarea 
+      id="instructionInput" 
+      placeholder="Enter your instructions for Claude..."></textarea>
+    <div class="button-container">
+      <button id="executeBtn">Execute</button>
+      <button id="stopBtn" class="danger" style="display: none;">Stop</button>
+    </div>
+    <div id="status"></div>
+    <div id="result"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
